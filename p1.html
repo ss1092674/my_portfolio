@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Saurabh Singh - Portfolio</title>
+    <link rel="stylesheet" href="p1.css"/>
+  
+    <script src="https://kit.fontawesome.com/41ee0c68aa.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/0.0.2/iconify-icon.min.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+            Saurabh singh
+          <div class="contact_info">
+           
+            <i class="fa-regular fa-message fa-beat" style="color: #ededed;"></i>
+          ss1092674@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+         
+          +91 9925861855
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+          <a class="topmenu" href="#Skills">Skills</a>
+          <a class="topmenu" href="#Projects">Projects</a>
+          <a class="topmenu" href="#Recommendation">Recommendation</a>
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="D:/WEBD/coursera/pic/mypic.jpg" alt="Your Image Description" style="width: 100px; height: 100px;">
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Saurabh Singh<img src="https://twemoji.maxcdn.com/2/72x72/1f44b.png" width="60px"/>
+          </h1>
+          <p>
+            "Highly motivated computer science student with a passion for coding and software development. Proficient in programming
+            languages such as Java, Python, and C++. Experienced in software development methodologies and agile project management. 
+            Seeking an internship opportunity to apply and expand my technical skills in a professional setting."
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <iconify-icon icon="ph:file-html" style="font-size: 110px;"></iconify-icon>
+          <h6>HTML</h6>
+         
+        </div>  
+
+        <div class="skill">
+          <iconify-icon icon="bxs:file-css" style="font-size: 100px;"></iconify-icon>
+          <h6>CSS</h6>
+          <p></p>
+        </div>  
+
+        <!-- Add more skills here -->
+        <div class="skill">
+          <iconify-icon icon="skill-icons:cpp" style="font-size: 100px;"></iconify-icon>
+            <h6>C++</h6>
+            <p></p>
+        </div>
+
+        <div class="skill">
+          <iconify-icon icon="skill-icons:python-dark" style="font-size: 100px;"></iconify-icon>
+            <h6>Python</h6>
+            <p></p>
+        </div>
+
+        <div class="skill">
+          <iconify-icon icon="vscode-icons:file-type-sql" style="font-size: 100px;"></iconify-icon>
+            <h6>SQL</h6>
+            <p></p>
+        </div>
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Smart Irrigation System Using IOT</h3>
+            <ul>
+              <li>
+                (An automated irrigation system refers to the operation 
+of the system with no or just a minimum of manual 
+intervention beside the surveillance) 
+  </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3> Gym Website
+               </h3>
+            <ul>
+              <li>
+                (We are developing a gym management System using 
+              HTML, CSS and Java Script.)</ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Zonex using Amzon Clone</h3>
+            <ul>
+              <li>
+               we are developing Zonex, Our System is e-commerce website from where people can buy products online.
+              </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          It also shows that you are proactive and contribute to the community outside of your professional life. If you've participated in any relevant projects or organizations, mention them, especially if they align with the job you're applying for.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Working with Saurabh has been an awesome experience. 
+          Highlight quantifiable results, such as increased sales revenue, cost savings, successful project completions, or any recognition or awards you received for your work. This not only demonstrates your skills and capabilities.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          I had worked along with Saurabh during the initial phase of our venture which needed Web development. 
+          She is a committed resource who has in depth knowledge about the domain. 
+          She will be an asset for any organisation! 
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thanks for leaving a recommendation</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
